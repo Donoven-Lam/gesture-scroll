@@ -10,7 +10,7 @@
 
 This project aims to create a groundbreaking gesture-based accessibility tool that enables users to interact with digital devices and applications effortlessly through hand gestures. By incorporating computer vision techniques, developed an innovative solution to address accessibility needs and enhance the overall user experience.
 
-![gesture-scroll-vid](./Docs/gesture-scroll-vid.gif)
+![gesture-scroll-vid](./docs/gesture-scroll-vid.gif)
 
 ## Getting Started
 
@@ -57,9 +57,11 @@ The tool will now start and will be listening for hand gestures. To perform an a
 If you are having trouble getting the tool to work, please refer to the following 
 Troubleshooting tips:
 
-Make sure that your webcam is properly connected to your computer.
-Make sure that the dependencies are installed correctly.
-Try restarting your computer.
+1. Make sure that your webcam is properly connected to your computer.
+2. Make sure that the dependencies are installed correctly.
+3. Try restarting your computer.
+4. Ensure that other devices such as capture cards are disconnected so your webcam can be detected.
+   
 If you are still having trouble, please open an issue on the GitHub repository.
 
 ## Key Features
@@ -78,9 +80,9 @@ If you are still having trouble, please open an issue on the GitHub repository.
 The Gesture-scroll accessibility tool presents an innovative and powerful solution to revolutionize how users interact with digital devices. By combining custom-built deep learning for gesture recognition with hand detection using Mediapipe, we have created an intuitive and accessible tool for users of all backgrounds. With a vision for continuous improvement and a focus on enhancing accessibility, we are dedicated to creating a positive impact on the lives of our users.
 
 ## Learn More
-- To learn more about the working of this tool. Read the <a href="./Docs/Docs.md"> Documentation </a> here
-- <img src="./Docs/gesture-model.drawio.svg" alt="model image" align="center"/> <br>
-- For more information regarding the model used and how it works, please open the <a href="./Docs/gesture-model.md">Gesture Model</a> document.
+- To learn more about the working of this tool. Read the <a href="./docs/Docs.md"> Documentation </a> here
+- <img src="./docs/gesture-model.drawio.svg" alt="model image" align="center"/> <br>
+- For more information regarding the model used and how it works, please open the <a href="./docs/gesture-model.md">Gesture Model</a> document.
 
 ## License
 The gesture-based accessibility tool is licensed under the Apache License.
